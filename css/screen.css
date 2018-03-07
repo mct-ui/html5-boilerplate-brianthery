@@ -1,5 +1,3 @@
-body {}
-
 /*
     Elements: Page
     ---
@@ -13,6 +11,8 @@ html {
   color: #111;
   padding: 24 px 24 px 0px;
 }
+
+body {}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -31,4 +31,15 @@ html {
   background: #E85E00;
   color: white;
   text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align: top;
 }
