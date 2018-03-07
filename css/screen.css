@@ -28,29 +28,75 @@ h1 {
   margin: 0 0 48px;
 }
 
-h2 {}
+h2 {
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
 
-h3 {}
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
 
-h4, h5, h6 {}
+h4, h5, h6 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
 
-p, ol, ul, dl, table, address, figure {}
+p, ol, ul, dl, table, address, figure {
+  margin: 0 0 24px
+}
 
-ul, ol, blockquote {}
+ul, ol, {
+  padding-left: 24px;
+}
 
-li ul, li ol {}
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Roman", serif;
+}
 
-blockquote {}
+li ul, li ol {
+  margin-bottom: 0;
+}
 
-figcaption {}
+blockquote {
+  font-size: inherit;
+  line-height: inherit;
+}
 
-hr {}
+figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: Grey;
+}
 
-a {}
+hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
+}
 
-a:hover, a:focus {}
+a {
+  color: RoyalBlue;
+  transition: all .1s ease-in-out;
+}
 
-a:visited, a:active {}
+a:visited, a:active {
+  color: BlueViolet;
+}
+
+a:hover, a:focus {
+  color: Crimson;
+}
 
 /*
  * Remove text-shadow in selection highlight:
